@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+.works-page{
+    margin-bottom: 40px;
+}
+.namuna-card_title{
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #76cdd8;
+}
+.namuna-card{
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.sample-works-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    box-sizing:border-box;
+    width: 100%;
+    padding: 20px 32px;
+}
+
+
+.namuna-card_text{
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    gap: 4px;
+    color: #1a2b3b;
+}
+.work-card img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.work-card{
+    padding: 1px;
+    min-height: 420px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.react-multi-carousel-track {
+    padding: 0 0 10 0 !important;
+}
+
+.ant-card-body{
+    padding: 0 !important;
+}
+
+.react-multiple-carousel__arrow{
+    display: none !important;
+}
+
+.react-multi-carousel-item{
+    margin-bottom: 15px !important;
+}
+
+@media( max-width:1200px){
+    .work-card {
+        min-height: 340px;
+        padding: 0px;
+    }
+    .work-card h5{
+        font-size: 16px;
+    }
+    .work-card p{
+        font-size: 12px;
+    }
+}
+@media( max-width:1000px){
+    .work-card {
+        min-height: 300px;
+        padding: 0px;
+    }
+ 
+}
+@media( max-width:770px){
+    .work-card {
+        min-height: 350px;
+        padding: 0px;
+    }
+ 
+}
+@media( max-width:550px){
+    .work-card {
+        min-height: 340px;
+        padding: 0px;
+    }
+ 
+}
+@media( max-width:450px){
+    .work-card {
+        min-height: 310px;
+        padding: 0px;
+    }
+ 
+}
+
+@media( max-width:380px){
+    .work-card {
+        min-height: 280px;
+        padding: 0px;
+    }
+ 
+}

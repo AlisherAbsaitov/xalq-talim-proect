@@ -1,0 +1,75 @@
+.navbar{
+    width: 100%;
+    min-height: 45px !important;
+    position: absolute !important;
+}
+
+.navbar-moon{
+    color:gray;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.navbar-title{
+    margin-right: -500px !important;
+    font-size: 22px;
+    color: #7c71f0;
+}
+
+.dropdown{
+    margin-right:18px;
+    font-size: 12px;  
+    color: grey; 
+    width: 80px;
+    height: 48px; 
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-radius: 16px;
+}
+.dropdown img{
+    margin-left: 6.72px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.sign{
+    width: 81px;
+}
+
+.registration{
+    width: 170px;
+}
+.Login{
+    display: flex;
+    align-items:center;
+    text-decoration: none;
+    color:gray;
+}
+
+.ant-select-arrow{
+    display: none !important;
+}
+
+.key-icon{
+    margin-right: 5px;
+}
+
+@media(max-width:992px){
+    .navbar-title{
+        margin-right: 0 !important;
+    }
+
+    .navbar-right{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    .dropdown{
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 30px !important;
+    }
+}
+

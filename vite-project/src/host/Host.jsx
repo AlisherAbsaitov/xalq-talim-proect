@@ -1,0 +1,1 @@
+export const api="http://89.249.60.34:8086" 
